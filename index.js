@@ -30,7 +30,7 @@ const server = app.listen(process.env.PORT, () => {
 const io = new Server(server, {
   pingTimeout: 6000,
   cors: {
-    origin: "https://localhost:3000",
+    origin: "https://grand-basbousa-fb7732.netlify.app/",
   },
 });
 
